@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginHorizontal="35dp"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/email"
+            style="@style/Base.EditText"
+            android:drawableStart="@drawable/ic_mail"
+            android:hint="@string/enter_email"
+            android:inputType="textEmailAddress" />
+
+        <EditText
+            android:id="@+id/theme"
+            style="@style/Base.EditText"
+            android:drawableStart="@drawable/ic_notes"
+            android:hint="@string/enter_subject"
+            android:inputType="textEmailSubject" />
+
+        <EditText
+            android:id="@+id/text"
+            style="@style/Base.EditText"
+            android:drawableStart="@drawable/ic_sms"
+            android:hint="@string/enter_text"
+            android:inputType="text" />
+
+        <Button
+            android:id="@+id/send_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/send" />
+
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

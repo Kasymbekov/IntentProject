@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">IntentProject</string>
+    <string name="enter_email">Enter email</string>
+    <string name="enter_subject">Enter subject</string>
+    <string name="enter_text">Enter text</string>
+    <string name="send">Send</string>
+</resources>
